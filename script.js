@@ -1,6 +1,5 @@
 let sections = document.querySelectorAll('section');
 let navlinks = document.querySelectorAll('header nav a');
-
 // Navbar link active on scroll
 window.onscroll = () => {
     sections.forEach(sec => {
